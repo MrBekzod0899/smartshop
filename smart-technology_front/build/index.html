@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <title>Smart Technologies</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script defer="defer" src="/static/js/main.f571daff.js"></script>
+    <link href="/static/css/main.b349b204.css" rel="stylesheet" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"
+    >
+      for(var current,splide=new Splide("#main-carousel",{pagination:!1}),thumbnails=document.getElementsByClassName("thumbnail"),i=0;i<thumbnails.length;i++)initThumbnail(thumbnails[i],i);function initThumbnail(i,n){i.addEventListener("click",(function(){splide.go(n)}))}splide.on("mounted move",(function(){var i=thumbnails[splide.index];i&&(current&&current.classList.remove("is-active"),i.classList.add("is-active"), current = i) })), splide.mount()
+    </script>
+  </body>
+</html>
